@@ -1,0 +1,18 @@
+{
+  "name": "xonos.js",
+  "version": "1.0.0",
+  "description": "JavaScript wrapper for XonosTools made in TypeScript",
+  "main": "dist",
+  "repository": "https://github.com/marinofranz/xonos.js.git",
+  "author": "Marino Franz <mvbjarnasynir@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
