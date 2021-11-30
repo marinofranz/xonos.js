@@ -2,6 +2,14 @@
   "name": "xonos.js",
   "version": "1.0.0",
   "description": "JavaScript wrapper for XonosTools made in TypeScript",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "build:watch": "rimraf dist && tsc-watch --noClear --onSuccess \"node dist/index.js\"",
+    "start": "node dist/index.js",
+    "start:watch": "nodemon dist/index.js",
+    "prettier": "prettier --write src",
+    "prettier:check": "prettier --check src"
+  },
   "main": "dist",
   "repository": "https://github.com/marinofranz/xonos.js.git",
   "author": "Marino Franz <mvbjarnasynir@gmail.com>",
